@@ -1,0 +1,131 @@
+Epoch 1/60: 
+Train Loss: 0.3623, Train Acc: 81.35%, 
+Val Loss: 1.3188, Val Acc: 28.17%, 
+Test Loss: 1.0590, Test Acc: 28.21%
+-------------------------------------------------------------
+New best model saved with validation accuracy: 88.73%
+Epoch 2/60: 
+Train Loss: 0.1236, Train Acc: 96.03%, 
+Val Loss: 0.2022, Val Acc: 88.73%, 
+Test Loss: 0.2156, Test Acc: 94.87%
+-------------------------------------------------------------
+New best model saved with validation accuracy: 97.18%
+Epoch 3/60: 
+Train Loss: 0.0866, Train Acc: 97.62%, 
+Val Loss: 0.0554, Val Acc: 97.18%, 
+Test Loss: 0.1280, Test Acc: 97.44%
+-------------------------------------------------------------
+New best model saved with validation accuracy: 100.00%
+Epoch 4/60: 
+Train Loss: 0.0659, Train Acc: 97.22%, 
+Val Loss: 0.0048, Val Acc: 100.00%, 
+Test Loss: 0.0037, Test Acc: 100.00%
+-------------------------------------------------------------
+Epoch 5/60: 
+Train Loss: 0.0176, Train Acc: 99.60%, 
+Val Loss: 0.0042, Val Acc: 100.00%, 
+Test Loss: 0.0044, Test Acc: 100.00%
+-------------------------------------------------------------
+Epoch 6/60: 
+Train Loss: 0.0060, Train Acc: 100.00%, 
+Val Loss: 0.0022, Val Acc: 100.00%, 
+Test Loss: 0.0077, Test Acc: 100.00%
+-------------------------------------------------------------
+Epoch 7/60: 
+Train Loss: 0.0112, Train Acc: 99.60%, 
+Val Loss: 0.0019, Val Acc: 100.00%, 
+Test Loss: 0.0082, Test Acc: 100.00%
+-------------------------------------------------------------
+Epoch 8/60: 
+Train Loss: 0.0297, Train Acc: 99.60%, 
+Val Loss: 0.0056, Val Acc: 100.00%, 
+Test Loss: 0.0316, Test Acc: 100.00%
+-------------------------------------------------------------
+Epoch 9/60: 
+Train Loss: 0.0132, Train Acc: 99.60%, 
+Val Loss: 0.0033, Val Acc: 100.00%, 
+Test Loss: 0.0094, Test Acc: 100.00%
+-------------------------------------------------------------
+Epoch 10/60: 
+Train Loss: 0.0043, Train Acc: 100.00%, 
+Val Loss: 0.0009, Val Acc: 100.00%, 
+Test Loss: 0.0016, Test Acc: 100.00%
+-------------------------------------------------------------
+Epoch 11/60: 
+Train Loss: 0.0103, Train Acc: 99.60%, 
+Val Loss: 0.0006, Val Acc: 100.00%, 
+Test Loss: 0.0040, Test Acc: 100.00%
+-------------------------------------------------------------
+Epoch 12/60: 
+Train Loss: 0.0126, Train Acc: 99.21%, 
+Val Loss: 0.0216, Val Acc: 98.59%, 
+Test Loss: 0.0206, Test Acc: 97.44%
+-------------------------------------------------------------
+Epoch 13/60: 
+Train Loss: 0.0435, Train Acc: 98.41%, 
+Val Loss: 0.0020, Val Acc: 100.00%, 
+Test Loss: 0.0017, Test Acc: 100.00%
+-------------------------------------------------------------
+Epoch 14/60: 
+Train Loss: 0.0097, Train Acc: 100.00%, 
+Val Loss: 0.0033, Val Acc: 100.00%, 
+Test Loss: 0.0126, Test Acc: 100.00%
+-------------------------------------------------------------
+Epoch 15/60: 
+Train Loss: 0.0063, Train Acc: 99.60%, 
+Val Loss: 0.0040, Val Acc: 100.00%, 
+Test Loss: 0.0080, Test Acc: 100.00%
+-------------------------------------------------------------
+Epoch 16/60: 
+Train Loss: 0.0026, Train Acc: 100.00%, 
+Val Loss: 0.0202, Val Acc: 98.59%, 
+Test Loss: 0.0062, Test Acc: 100.00%
+-------------------------------------------------------------
+Epoch 17/60: 
+Train Loss: 0.0046, Train Acc: 100.00%, 
+Val Loss: 0.0025, Val Acc: 100.00%, 
+Test Loss: 0.0030, Test Acc: 100.00%
+-------------------------------------------------------------
+Epoch 18/60: 
+Train Loss: 0.0022, Train Acc: 100.00%, 
+Val Loss: 0.0005, Val Acc: 100.00%, 
+Test Loss: 0.0019, Test Acc: 100.00%
+-------------------------------------------------------------
+Early stopping at epoch 19
+
+Final Classification Report:
+
+              precision    recall  f1-score   support
+
+      Lunges       1.00      1.00      1.00        14
+       Plank       1.00      1.00      1.00        11
+       Squat       1.00      1.00      1.00        14
+
+    accuracy                           1.00        39
+   macro avg       1.00      1.00      1.00        39
+weighted avg       1.00      1.00      1.00        39
+
+
+TensorBoard logs saved at: runs/20251019-185203
+Best model saved with validation accuracy: 100.00%
+
+=== Evaluating Best Model ===
+Best Model Test Loss: 0.0037
+Best Model Test Accuracy: 100.00%
+
+=== Best Model Classification Report ===
+              precision    recall  f1-score   support
+
+      Lunges       1.00      1.00      1.00        14
+       Plank       1.00      1.00      1.00        11
+       Squat       1.00      1.00      1.00        14
+
+    accuracy                           1.00        39
+   macro avg       1.00      1.00      1.00        39
+weighted avg       1.00      1.00      1.00        39
+
+
+=== Per-Class Accuracy ===
+Lunges: 1.000
+Plank: 1.000
+Squat: 1.000
